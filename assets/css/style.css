@@ -1,0 +1,121 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+/*---Cabecera---*/
+header{
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+.cabecera{
+    width: 98vw; /*por algún motivo tiene que ir en 98vw*/
+    height: 100vh;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*header img{
+    max-width: 100%;
+    height: auto;
+}*/
+
+
+/*---Fin Cabecera---*/
+
+
+/*---Descripción---*/
+
+.desc-section{
+    text-align: center;
+}
+
+.desc-section-block{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 35%;     
+    padding: 3rem;
+}
+
+.desc-section-block img{
+    width: 80%;
+    margin: auto;
+}
+
+/*---Fin Descripción---*/
+
+
+/*---Características---*/
+
+.icons-section, footer{    /*También modifica footer*/
+    text-align: center;
+    background-color: #1E1A13;
+    line-height: 2.5rem;
+    padding: 3rem;
+    width: 93.5;
+}
+
+.icons-section h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.icons-section-text{
+    display: inline-block;
+    width: 25%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/*---Fin Características---*/
+
+
+/*---Galería de imágenes---*/
+
+.galeria{
+    text-align: center;
+    padding: 5rem;
+
+}
+
+.galeria-foto{
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.galeria-foto img{
+    max-height: 200px;
+    width: 100%;
+}
+
+/*---Fin Galería de imágenes---*/
+
+
+/*---Footer---*/
+
+footer{
+    font-weight: 200;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*---Fin Footer---*/
